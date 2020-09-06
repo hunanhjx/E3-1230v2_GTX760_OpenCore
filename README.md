@@ -1,7 +1,7 @@
 # OpenCore-IvyBridge-Kepler
 A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video card.
 ___
-###My PC Spec:
+##My PC Spec:
 
     +Motherboard Name	Onda P75U
     
@@ -25,7 +25,7 @@ ___
     
     +Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8211/8212)	PCI
     
-###适用于英特尔IvyBridge芯片和英伟达开普勒芯片的OpenCore引导
+##适用于英特尔IvyBridge芯片和英伟达开普勒芯片的OpenCore引导
 
 萌新第一次自己动手做如有建议或意见请多指教。
 
