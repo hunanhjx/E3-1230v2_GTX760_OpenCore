@@ -1,6 +1,8 @@
 # OpenCore-IvyBridge-Kepler
 A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video card.
 ___
+![image](http://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/PreviewImages/raw/master/images/1.png)
+___
 My PC Spec:
 
     Motherboard Name	Onda P75U
