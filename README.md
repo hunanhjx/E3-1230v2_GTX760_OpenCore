@@ -39,7 +39,7 @@ My PC Spec:
     
     内部名称	Ivy Bridge-WS
     
-    UEFI Boot 是 
+    UEFI Boot	是 
     
     显示适配器	nVIDIA GeForce GTX 760 (p2004)
     
