@@ -1,7 +1,7 @@
 # OpenCore-IvyBridge-Kepler
 A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video card.
 ___
-![image](http://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/PreviewImages/1.png)
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
 ___
 My PC Spec:
 
