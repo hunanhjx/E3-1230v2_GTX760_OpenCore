@@ -53,3 +53,4 @@ My PC Spec:
     
     Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8211/8212)	PCI
     
+*毕竟是老电脑了就将就着用吧，主要是独显能用还是挺好的
