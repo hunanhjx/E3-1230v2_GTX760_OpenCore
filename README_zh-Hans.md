@@ -20,7 +20,7 @@
 
 ### 下载地址
 
-[Releases](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+[最新发布](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
 
 ### 我的电脑配置:
 
