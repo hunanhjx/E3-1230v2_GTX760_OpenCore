@@ -8,7 +8,7 @@
 
 ## **警告⚠️**
 
-**我是一个通过学习[OpenCore安装指南](https://dortania.github.io/OpenCore-Install-Guide/)来完成这个项目的小白。**
+**我是一个通过学习[《OpenCore安装指南》](https://dortania.github.io/OpenCore-Install-Guide/)来完成这个项目的小白。**
 
 **至少对我来说用起来没啥毛病。**
 
@@ -51,7 +51,7 @@
 
 ## 小提示
 
-强烈推荐参考此 [OpenCore安装指南](https://dortania.github.io/OpenCore-Install-Guide/) 来使用本EFI。
+强烈推荐参考此 [《OpenCore安装指南》](https://dortania.github.io/OpenCore-Install-Guide/) 来使用本EFI。
 
 如遇到开机黑屏，请尝试主板断电以重置BIOS。
 
