@@ -1,9 +1,29 @@
 # OpenCore-IvyBridge-Kepler
 A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video card.
-___
+
+## Languages
+
+- **English (Current)**
+- [简体中文](https://github.com/williambj1/OpenCore-Factory/blob/master/README_zh-Hans.md)
+
+## **WARNING⚠️**
+
+**I am a new hand who completes this by reading the [GUIDE](https://dortania.github.io/OpenCore-Install-Guide/).**
+
+**At least for me, everything works fine.**
+
+**I am not responsible for any damage you made to your device.**
+
+## Preview image
+
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
 ___
-My PC Spec:
+
+### Download
+
+[Releases](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+
+### My PC Spec:
 
     Motherboard Name	Onda P75U
     
@@ -27,32 +47,15 @@ My PC Spec:
     
     Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8211/8212)	PCI
     
-适用于英特尔IvyBridge芯片和英伟达开普勒芯片的OpenCore引导
 
-萌新第一次自己动手做如有建议或意见请多指教。
+## Tips
 
-我的电脑配置：
+It is recommended to refer to the [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/) to use this EFI.
 
-    主板名称	Onda P75U
-    
-    主板芯片组	Intel Panther Point B75, Intel Ivy Bridge
-    
-    处理器名称	QuadCore Intel Xeon E3-1230 v2, 3500 MHz (35 x 100)
-    
-    内部名称	Ivy Bridge-WS
-    
-    UEFI Boot	是 
-    
-    显示适配器	nVIDIA GeForce GTX 760 (p2004)
-    
-    GPU 代码名称	GK104-225
-    
-    架构	nVIDIA Kepler
-    
-    nVIDIA GK104 HDMI/DP @ nVIDIA GK104 - High Definition Audio Controller	PCI
-    
-    Realtek ALC662 @ Intel Panther Point PCH - High Definition Audio Controller [C1]	PCI
-    
-    Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8211/8212)	PCI
-    
-*毕竟是老电脑了就将就着用吧，主要是独显能用还是挺好的
+If your screen is blank after starting the computer, please try to turn off the motherboard power to reset the BIOS.
+
+## Credits
+
+Acidanthera for developing OpenCorePkg
+
+dortania for [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/)
