@@ -3,7 +3,7 @@
 
 ## 语言
 
-- [English](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README_zh-Hans.md)
+- [English](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README.md)
 - **简体中文（当前）**
 
 ## **警告⚠️**
