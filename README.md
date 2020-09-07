@@ -53,6 +53,8 @@ It is recommended to refer to the [OpenCore-Install-Guide](https://dortania.gith
 
 If your screen is blank after starting the computer, please try to turn off the motherboard power to reset the BIOS.
 
+Please modify it according to the actual situation, such as sound card id and other parameters.
+
 ## Credits
 
 Acidanthera for developing OpenCorePkg
