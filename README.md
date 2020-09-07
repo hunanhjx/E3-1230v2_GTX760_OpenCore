@@ -14,6 +14,8 @@ A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video car
 
 **I am not responsible for any damage you made to your device.**
 
+Any comments or suggestions are welcome!!!😄
+
 ## Preview image
 
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
@@ -53,7 +55,7 @@ It is recommended to refer to the [OpenCore Install Guide](https://dortania.gith
 
 If your screen is blank after starting the computer, please try to turn off the motherboard power to reset the BIOS.
 
-Please modify it according to the actual situation, such as sound card id and other parameters.
+Please modify it according to the actual situation, such as sound card id, serial number and other parameters.
 
 ## Credits
 
