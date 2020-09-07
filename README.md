@@ -57,4 +57,4 @@ If your screen is blank after starting the computer, please try to turn off the 
 
 Acidanthera for developing OpenCorePkg
 
-dortania for [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+dortania for OpenCore Install Guide
