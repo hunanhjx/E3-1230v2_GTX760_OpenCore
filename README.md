@@ -8,7 +8,7 @@ A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video car
 
 ## **WARNING⚠️**
 
-**I am a new hand who completes this by reading the [GUIDE](https://dortania.github.io/OpenCore-Install-Guide/).**
+**I am a new hand who completes this by reading the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/).**
 
 **At least for me, everything works fine.**
 
@@ -49,7 +49,7 @@ A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video car
 
 ## Tips
 
-It is recommended to refer to the [OpenCore-Install-Guide](https://dortania.github.io/OpenCore-Install-Guide/) to use this EFI.
+It is recommended to refer to the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) to use this EFI.
 
 If your screen is blank after starting the computer, please try to turn off the motherboard power to reset the BIOS.
 
