@@ -1,4 +1,4 @@
-# OpenCore-IvyBridge-Kepler
+# E3-1230v2_GTX760_OpenCore
 适用于使用英特尔IvyBridge芯片组和英伟达Kepler芯片显卡的电脑，基于OpenCore制作的EFI。
 
 ## 语言
