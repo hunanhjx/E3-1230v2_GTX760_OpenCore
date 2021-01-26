@@ -12,7 +12,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>DSDT.aml</string>
+				<string>DSDT-00.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -20,7 +20,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT.aml</string>
+				<string>SSDT-00.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -28,7 +28,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-1.aml</string>
+				<string>SSDT-01.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -36,7 +36,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-2.aml</string>
+				<string>SSDT-02.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -236,26 +236,13 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array>
-			<dict>
-				<key>Address</key>
-				<integer>4275159040</integer>
-				<key>Comment</key>
-				<string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
-				<key>Enabled</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Address</key>
-				<integer>4278190080</integer>
-				<key>Comment</key>
-				<string>Generic: PCI root is a 0x1000 page memory region used by some firmwares</string>
-				<key>Enabled</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
+		<key>Patch</key>
+		<array/>
 		<key>Quirks</key>
 		<dict>
+			<key>AllowRelocationBlock</key>
+			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
@@ -667,12 +654,12 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 		</array>
 		<key>Emulate</key>
 		<dict>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>Cpuid1Data</key>
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>MaxKernel</key>
 			<string></string>
 			<key>MinKernel</key>
@@ -689,10 +676,10 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string></string>
 				<key>Enabled</key>
 				<false/>
-				<key>Identifier</key>
-				<string>com.apple.iokit.IONetworkingFamily</string>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IONetworkingFamily</string>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IONetworkingFamily</string>
 				<key>MaxKernel</key>
 				<string>13.99.99</string>
 				<key>MinKernel</key>
@@ -906,6 +893,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
@@ -949,6 +938,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<false/>
 			<key>PickerMode</key>
 			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
@@ -992,6 +983,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string>CustomOS</string>
 				<key>Path</key>
 				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<key>TextMode</key>
+				<false/>
 			</dict>
 		</array>
 		<key>Security</key>
@@ -1004,8 +997,10 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<false/>
 			<key>BootProtect</key>
-			<string>None</string>
+			<string>Bootstrap</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -1113,26 +1108,28 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
-			<key>SystemMemoryStatus</key>
-			<string>Auto</string>
 			<key>MLB</key>
-			<string>C02343270CDF2FRCB</string>
+			<string>C02509404GUG2Y7CB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data>x9+XCPIQ</data>
 			<key>SpoofVendor</key>
 			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac13,2</string>
+			<string>iMac15,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02LLNYXDNCW</string>
+			<string>C02PCTYBFY10</string>
 			<key>SystemUUID</key>
-			<string>AE999F92-E5C6-4B0B-BB08-030E496D82C8</string>
+			<string>B205D482-B738-46F9-9AEA-335E80E2D862</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1165,15 +1162,17 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1B,0x0)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
-			<false/>
+			<true/>
 			<key>MinimumVolume</key>
-			<integer>20</integer>
+			<integer>50</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>Enabled</string>
+			<key>SetupDelay</key>
+			<integer>0</integer>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
@@ -1181,11 +1180,11 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 		<true/>
 		<key>Drivers</key>
 		<array>
+			<string>AudioDxe.efi</string>
 			<string>HfsPlus.efi</string>
+			<string>MemoryAllocation.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
-			<string>AudioDxe.efi</string>
-			<string>MemoryAllocation.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1215,6 +1214,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
+			<false/>
+			<key>ForceResolution</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
@@ -1274,8 +1275,6 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>IgnoreInvalidFlexRatio</key>
@@ -1294,26 +1293,26 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>Address</key>
 				<integer>268435456</integer>
-				<key>Type</key>
-				<string>Reserved</string>
 				<key>Comment</key>
 				<string>HD3000: IGPU memory corruption errata</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Size</key>
 				<integer>268435456</integer>
+				<key>Type</key>
+				<string>Reserved</string>
 			</dict>
 			<dict>
 				<key>Address</key>
 				<integer>569344</integer>
-				<key>Type</key>
-				<string>RuntimeCode</string>
 				<key>Comment</key>
 				<string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Size</key>
 				<integer>4096</integer>
+				<key>Type</key>
+				<string>RuntimeCode</string>
 			</dict>
 		</array>
 	</dict>
