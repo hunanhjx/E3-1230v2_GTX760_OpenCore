@@ -17,12 +17,15 @@
 如果有意见或建议欢迎提出！！！😄
 
 ## 预览图
-
+Catalina
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
+Big Sur
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/2.png)
 
 ### 下载地址
 
-[最新发布](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+[Big Sur](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+[Lion至Catalina](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
 
 ### 我的电脑配置:
 
