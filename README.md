@@ -26,6 +26,7 @@ Big Sur
 ### Download
 
 [Big Sur](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+
 [Lion to Catalina](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
 
 

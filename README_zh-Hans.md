@@ -26,6 +26,7 @@ Big Sur
 ### 下载地址
 
 [Big Sur](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+
 [Lion至Catalina](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
 
 ### 我的电脑配置:
