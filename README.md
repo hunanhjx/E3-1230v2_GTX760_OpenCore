@@ -5,6 +5,7 @@ A EFI based on OpenCore for PCs with Intel Ivy Bridge and Nvidia Kepler video ca
 
 - **English (Current)**
 - [简体中文](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README_zh-Hans.md)
+- [繁體中文](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README_zh-Hant.md)
 
 ## **WARNING⚠️**
 

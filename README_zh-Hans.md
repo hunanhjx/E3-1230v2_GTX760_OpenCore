@@ -5,6 +5,7 @@
 
 - [English](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README.md)
 - **简体中文（当前）**
+- [繁體中文](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README_zh-Hant.md)
 
 ## **警告⚠️**
 
