@@ -1,5 +1,5 @@
 # E3-1230v2_GTX760_OpenCore
-A EFI based on OpenCore for PCs with Intel IvyBridge and Nvidia Kepler video card.
+A EFI based on OpenCore for PCs with Intel Ivy Bridge and Nvidia Kepler video card.
 
 ## Languages
 

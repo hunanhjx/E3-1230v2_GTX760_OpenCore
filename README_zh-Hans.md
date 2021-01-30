@@ -1,5 +1,5 @@
 # E3-1230v2_GTX760_OpenCore
-适用于使用英特尔IvyBridge芯片组和英伟达Kepler芯片显卡的电脑，基于OpenCore制作的EFI。
+适用于使用英特尔Ivy Bridge芯片组和英伟达Kepler芯片显卡的电脑，基于OpenCore制作的EFI。
 
 ## 语言
 
@@ -54,7 +54,7 @@ Big Sur
     Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter (PHY: Realtek RTL8211/8212)	PCI
     
 
-## 小提示
+## 提示
 
 强烈推荐参考 [《OpenCore安装指南》](https://dortania.github.io/OpenCore-Install-Guide/) 来使用本EFI。
 
