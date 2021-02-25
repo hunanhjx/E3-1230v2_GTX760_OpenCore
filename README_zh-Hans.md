@@ -18,17 +18,16 @@
 如果有意见或建议欢迎提出！！！😄
 
 ## 预览图
-Catalina
-![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
-
 Big Sur
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/2.png)
 
+Catalina
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
+
 ### 下载地址
+[![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=%E6%9C%80%E6%96%B0Big%20Sur&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
 
-[Big Sur](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
-
-[Lion至Catalina](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
+[![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/0.6.2/total?label=Catalina%E5%8F%8A%E6%9B%B4%E6%97%A7&style=for-the-badge)](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
 
 ### 我的电脑配置:
 

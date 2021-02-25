@@ -18,11 +18,11 @@ A EFI based on OpenCore for PCs with Intel Ivy Bridge and Nvidia Kepler video ca
 Any comments or suggestions are welcome!!!😄
 
 ## Preview image
-Catalina
-![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
-
 Big Sur
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/2.png)
+
+Catalina
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
 
 ### Download
 [![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=Big%20Sur%20Latest&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
