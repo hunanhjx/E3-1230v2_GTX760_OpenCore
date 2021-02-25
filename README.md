@@ -25,9 +25,7 @@ Big Sur
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/2.png)
 
 ### Download
-
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?style=flat-square)
-
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?logo=Big%20Sur&style=for-the-badge)
 [Big Sur](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
 
 [Lion to Catalina](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
