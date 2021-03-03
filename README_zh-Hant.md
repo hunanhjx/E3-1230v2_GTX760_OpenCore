@@ -24,12 +24,12 @@ Big Sur
 Catalina
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
 
-### 下載地址
+## 下載地址
 [![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=%E6%9C%80%E6%96%B0Big%20Sur&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/0.6.2/total?label=Catalina%E5%8F%8A%E6%9B%B4%E8%88%8A&style=for-the-badge)](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
 
-### 我的電腦參數:
+## 我的電腦參數:
 
     主機板名稱	 Onda P75U
     
