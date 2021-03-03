@@ -18,10 +18,10 @@
 如果有意見或建議歡迎提出！！！😄
 
 ## 預覽圖像
-Big Sur
+### Big Sur
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/2.png)
 
-Catalina
+### Catalina
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
 
 ## 下載地址
