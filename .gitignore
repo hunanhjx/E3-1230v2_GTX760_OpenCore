@@ -1,5 +1,14 @@
 
-EFI/OC/.DS_Store
-EFI/.DS_Store
-EFI/OC/Kexts/.DS_Store
 .DS_Store
+EFI/.DS_Store
+EFI/BOOT/.DS_Store
+EFI/OC/.DS_Store
+EFI/OC/ACPI/.DS_Store
+EFI/OC/Drivers/.DS_Store
+EFI/OC/Kexts/.DS_Store
+EFI/OC/Resources/.DS_Store
+EFI/OC/Resources/Audio/.DS_Store
+EFI/OC/Resources/Font/.DS_Store
+EFI/OC/Resources/Images/.DS_Store
+EFI/OC/Resources/Label/.DS_Store
+PreviewImages/.DS_Store
