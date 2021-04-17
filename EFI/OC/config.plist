@@ -971,7 +971,7 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
+			<string>PciRoot(0x0)/Pci(0x1B,0x0)</string>
 			<key>AudioOut</key>
 			<integer>0</integer>
 			<key>AudioSupport</key>
@@ -993,7 +993,6 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 		<array>
 			<string>AudioDxe.efi</string>
 			<string>HfsPlus.efi</string>
-			<string>MemoryAllocation.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenCanopy.efi</string>
 		</array>
@@ -1093,7 +1092,7 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<key>IgnoreInvalidFlexRatio</key>
 			<true/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
+			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>TscSyncTimeout</key>
