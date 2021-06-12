@@ -840,7 +840,7 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<key>boot-args</key>
 				<string>debug=0x100 keepsyms=1 alcid=5 nvda_drv=1</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>7wcAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 				<key>run-efi-updater</key>
@@ -861,6 +861,7 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
