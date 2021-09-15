@@ -3,8 +3,8 @@
 
 ## 语言語言
 
-- [English](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README.md)
-- [简体中文](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/master/README_zh-Hans.md)
+- [English](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/mine/README.md)
+- [简体中文](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/blob/mine/README_zh-Hans.md)
 - **繁體中文（當前）**
 
 ## **警告⚠️**
@@ -19,10 +19,10 @@
 
 ## 預覽圖像
 ### Big Sur
-![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/2.png)
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/2.png)
 
 ### Catalina
-![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/master/PreviewImages/1.png)
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/1.png)
 
 ## 下載地址
 [![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=%E6%9C%80%E6%96%B0Big%20Sur&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
