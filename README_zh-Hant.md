@@ -9,7 +9,7 @@
 
 ## **警告⚠️**
 
-**我是一个通過學習[《OpenCore安裝指南》](https://dortania.github.io/OpenCore-Install-Guide/)完成此項目的新手。**
+**我是一个通過學習[《OpenCore安裝指南》](https://dortania.github.io/OpenCore-Install-Guide/)完成此項目的菜鳥。**
 
 **對於我來說使用起來沒有問題。**
 
