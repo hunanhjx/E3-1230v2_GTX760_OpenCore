@@ -1005,6 +1005,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -1012,6 +1014,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			</dict>
 			<dict>
 				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
@@ -1021,6 +1025,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
+				<key>Comment</key>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -1028,6 +1034,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			</dict>
 			<dict>
 				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
