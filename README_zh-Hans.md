@@ -18,6 +18,8 @@
 如果有意见或建议欢迎提出！！！😄
 
 ## 预览图
+### Monterey
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/3.png)
 ### Big Sur
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/2.png)
 
@@ -25,7 +27,7 @@
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/1.png)
 
 ## 下载地址
-[![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=%E6%9C%80%E6%96%B0Big%20Sur&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=%E6%9C%80%E6%96%B0Big%20Sur&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/0.7.4)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/0.6.2/total?label=Catalina%E5%8F%8A%E6%9B%B4%E6%97%A7&style=for-the-badge)](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
 
@@ -55,6 +57,8 @@
     
 
 ## 提示
+
+macOS Monterey已不再提供内置的英伟达显卡驱动，需要通过[Geforce-Kepler-patcher](https://github.com/chris1111/Geforce-Kepler-patcher)自行安装驱动。
 
 强烈推荐参考 [《OpenCore安装指南》](https://dortania.github.io/OpenCore-Install-Guide/) 来使用本EFI。
 
