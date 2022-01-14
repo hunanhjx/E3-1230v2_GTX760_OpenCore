@@ -18,6 +18,8 @@ A EFI based on OpenCore for PCs with Intel Ivy Bridge and Nvidia Kepler video ca
 Any comments or suggestions are welcome!!!😄
 
 ## Preview image
+### Monterey
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/3.png)
 ### Big Sur
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/2.png)
 
@@ -25,7 +27,7 @@ Any comments or suggestions are welcome!!!😄
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/1.png)
 
 ## ![GitHub all releases](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/total?color=%23ebb5e4&label=DOWNLOADS&style=for-the-badge)
-[![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=Big%20Sur%20Latest&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/latest/total?label=Big%20Sur%20Latest&style=for-the-badge)](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/releases/0.7.4)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/downloads/hunanhjx/E3-1230v2_GTX760_OpenCore/0.6.2/total?label=Catalina%20and%20older&style=for-the-badge)](https://github.com/hunanhjx/E3-1230v2_GTX760_OpenCore/releases/tag/0.6.2)
 
