@@ -69,6 +69,6 @@ Please modify it according to the actual situation, such as sound card id, seria
 
 ## Credits
 
-Acidanthera for developing [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
+[Acidanthera](https://github.com/acidanthera) for developing [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 
-dortania for writing [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+[dortania](https://github.com/dortania) for writing [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
