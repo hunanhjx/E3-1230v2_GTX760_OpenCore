@@ -20,6 +20,7 @@
 ## 预览图
 ### Monterey
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/3.png)
+
 ### Big Sur
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/2.png)
 
