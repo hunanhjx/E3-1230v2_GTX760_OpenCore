@@ -61,7 +61,7 @@ Any comments or suggestions are welcome!!!😄
 
 ## Tips
 
-Nvidia graphics drivers are no longer pre-installed in macOS 12, you need to manually install the driver via [Geforce-Kepler-patcher](https://github.com/chris1111/Geforce-Kepler-patcher)
+Nvidia graphics drivers are no longer pre-installed in macOS 12, you need to manually install the driver via [Geforce-Kepler-patcher](https://github.com/chris1111/Geforce-Kepler-patcher) or [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
 It is recommended to refer to the [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) to use this EFI.
 
