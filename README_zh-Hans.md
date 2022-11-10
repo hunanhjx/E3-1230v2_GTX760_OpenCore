@@ -18,6 +18,9 @@
 如果有意见或建议欢迎提出！！！😄
 
 ## 预览图
+### Ventura
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/4.png)
+
 ### Monterey
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/3.png)
 
