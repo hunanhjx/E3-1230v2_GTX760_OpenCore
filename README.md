@@ -18,6 +18,9 @@ A EFI based on OpenCore for PCs with Intel Ivy Bridge and Nvidia Kepler video ca
 Any comments or suggestions are welcome!!!😄
 
 ## Preview image
+### Ventura
+![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/4.png)
+
 ### Monterey
 ![image](https://github.com/hunanhjx/OpenCore-IvyBridge-Kepler/raw/mine/PreviewImages/3.png)
 
