@@ -267,6 +267,8 @@
 			<false/>
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
+			<key>ClearTaskSwitchBit</key>
+			<false/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
@@ -283,6 +285,8 @@
 			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
+			<key>FixupAppleEfiImages</key>
+			<true/>
 			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
@@ -309,14 +313,12 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>layout-id</key>
 				<data>BQAAAA==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x16,0x0)
-
-PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>device-id</key>
 				<data>OhwAAA==</data>
@@ -518,24 +520,6 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext.dSYM</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -712,6 +696,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
+			<key>DisableIoMapperMapping</key>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -767,6 +753,10 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<string>Auto</string>
 			<key>HideAuxiliary</key>
 			<true/>
+			<key>HibernateSkipsPicker</key>
+			<false/>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>LauncherOption</key>
 			<string>System</string>
 			<key>LauncherPath</key>
@@ -883,8 +873,6 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
-				<key>UIScale</key>
-				<data>Ag==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -899,6 +887,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string>debug=0x100 keepsyms=1 alcid=5 nvda_drv=1</string>
 				<key>csr-active-config</key>
 				<data>7w8AAA==</data>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 				<key>run-efi-updater</key>
@@ -909,7 +899,6 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
-				<string>UIScale</string>
 				<string>DefaultBackgroundColor</string>
 			</array>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
@@ -922,8 +911,6 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string>csr-active-config</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -1032,6 +1019,12 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<integer>0</integer>
 			<key>PointerPollMax</key>
 			<integer>0</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -1073,6 +1066,10 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<false/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>AudioDxe.efi</string>
 			</dict>
@@ -1083,6 +1080,10 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<false/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>HfsPlus.efi</string>
 			</dict>
@@ -1093,6 +1094,10 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<false/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1103,6 +1108,10 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<false/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
@@ -1130,14 +1139,20 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 		<dict>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
+			<key>ConsoleFont</key>
+			<string></string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
+			<key>GopBurstMode</key>
+			<false/>
 			<key>GopPassThrough</key>
 			<string>Disabled</string>
+			<key>InitialMode</key>
+			<string>Auto</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
@@ -1157,7 +1172,7 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<key>UgaPassThrough</key>
 			<false/>
 			<key>UIScale</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1174,6 +1189,8 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<key>AppleImageConversion</key>
 			<false/>
 			<key>AppleImg4Verification</key>
+			<false/>
+			<key>PciIo</key>
 			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
@@ -1224,12 +1241,18 @@ PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<true/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
+			<key>ResizeUsePciRbIo</key>
+			<false/>
+			<key>ShimRetainProtocol</key>
+			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>
